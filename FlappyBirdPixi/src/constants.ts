@@ -8,6 +8,9 @@ export const gameState = {
   score: 0,
 };
 export const gameEvents = new GameEvent();
+export const pipeHeight: number = 320;
+
+/* ----------------------------------------------------- DESIGN ----------------------------------------------------- */
 
 // Bird
 export const gravity: number = 9.8 * gameUnit;
@@ -15,7 +18,6 @@ export const tapStrength: number = -8 * gameUnit;
 
 // Pipes
 export const pipeSpeed: number = -120;
-export const pipeHeight: number = 320;
 export const pipesDistanceX: number = 220;
 export const pipesDistanceY: number = 130;
 export const minPipeY: number = 64;

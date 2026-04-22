@@ -1,8 +1,8 @@
 import { Container, Sprite, Texture } from "pixi.js";
 import { Scene } from "../types";
-import { Bird } from "../Entities/Bird";
-import { UI } from "../Entities/UI";
-import { Pipe } from "../Entities/Pipe";
+import { Bird } from "../entities/Bird";
+import { UI } from "../entities/UI";
+import { Pipe } from "../entities/Pipe";
 import {
   backgroundSize,
   maxPipeY,
@@ -10,7 +10,7 @@ import {
   pipesDistanceX,
 } from "../constants";
 import { overlaps } from "../utils/physics";
-import { ScoreTrigger } from "../Entities/ScoreTrigger";
+import { ScoreTrigger } from "../entities/ScoreTrigger";
 import { gameSize } from "../Game";
 
 export class MainScene implements Scene {
